@@ -10,6 +10,31 @@ let myStory = ` <p> Hello ${userName}. Answer me these questions <span class="lo
 </p>
 `
 
-console.log(myStory) 
+console.log(myStory)
 
 document.getElementById('story').innerHTML = myStory
+
+// Random Number Generator ("random mad-lib")
+function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Example usage:
+let randomNumber = getRandomNumber(1, 4);
+console.log(randomNumber);
+
+// if then statements ... "== is the REAL way to say equal ..."
+
+if (randomNumber == 1) {
+  //do stuff
+} else if (randomNumber == 2) {
+  //do diff stuff
+}
+
+else if (randomNumber == 3) {
+  // do more diff stuff
+}
+else {
+  // if nothing above is true, do this 
+}
+
