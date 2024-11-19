@@ -25,8 +25,24 @@ if (randomNumber == 1) {
   //do stuff
 //ALL prompts this section: Name, PlaceName, Adjective, NameS, Wish, Weapon1, Weapon2, NameS, biome1, biome2, biome3, biome1, weapon1, artifact1, biome2, building, artifact2, verb, artifact3, biome3, artifact3, monster, monster1, weapon2, PlaceName, NameS, Animal/Monster, NameS, PlaceName.
 
+let userName1 = prompt('Name a Noun')
+let placeName1 = prompt('Name a Place') 
+let adjective1 = prompt('Name an adjective')
+let wish1 = prompt('Name a goal or wish')
+let weapon1 = prompt('Name a weapon')
+let weapon2 = prompt('Name another weapon')
+let biome1 = prompt('Name a biome (ex: forest, ocean, etc.)')
+let biome2 = prompt('Name another biome')
+let biome3 = prompt('Name another biome')
+let artifact1 = prompt('Name a noun')
+let building = prompt('Name a building or type of building')
+let artifact2 = prompt('Name a noun')
+let verb1 = prompt('Name a verb')
+let artifact3 = prompt('Name a noun')
+let monster = prompt('Name a mythical monster')
+let monster2 = prompt('Name a animal or monster')
 
-let myStoryOne = ` <p> A long long time ago a ____ cast a dark spell on the kingdom of ______ . A dark cloud _____ into the kingdom. The ____ wished to ___ . The dark cloud helped them succeed. But a great knight wielding a ___ and a ___ . In order to defeat the ___ the great knight had to travel to the ___, ___, and the ____. First the knight traveled to the ____, the darkness had already descended on the land but the knight ran in with his ___ and managed to get the magical artifact, the ____. Next they traveled to the ____, this place was completely untouched with a large ____ for defense. In order to get the ____ the knight had to ____. The final piece was a ___ in the ____. The ____ was guarded by a ____ the knight fought off the ____ with their ____. After getting back to ____. They found the ___ had completely taken over the kingdom. Using the power of the artifacts the knight decided they must turn into a ___ and seal away the ___ bringing peace to ____. </p>`
+let myStoryOne = ` <p> A long long time ago a ${userName1} cast a dark spell on the kingdom of ${placeName1} . A dark cloud ${adjective1} into the kingdom. The ${userName1} wished to ${wish1} . The dark cloud helped them succeed. But a great knight wielding a ${weapon1} and a ${weapon2} . In order to defeat the ${userName1} the great knight had to travel to the ${biome1}, ${biome2}, and the ${biome3}. First the knight traveled to the ${biome1}, the darkness had already descended on the land but the knight ran in with his ${weapon1} and managed to get the magical artifact, the ${artifact1}. Next they traveled to the ${biome2}, this place was completely untouched with a large ${building} for defense. In order to get the ${artifact2} the knight had to ${verb1}. The final piece was a ${artifact3} in the ${biome3}. The ${artifact3} was guarded by a ${monster} the knight fought off the ${monster} with their ${weapon2}. After getting back to ${placeName1}. They found the ${userName1} had completely taken over the kingdom. Using the power of the artifacts the knight decided they must turn into a ${monster2} and seal away the ${userName1} bringing peace to ${placeName1}. </p>`
 
 console.log(myStoryOne)
 
@@ -35,7 +51,7 @@ document.getElementById('storyone').innerHTML = myStoryOne
 
 } else if (randomNumber == 2) {
   //do diff stuff
-//ALL prompts this section: planetName, LSname, Adjective, Occupation, LSname, roomName, Adjective, Noun, NegativeAdjective, Otimpotapeia, LSname, Family, noun, Family, noun
+//ALL prompts this section: planetName, LSname, Adjective, Occupation, LSname, roomName, Adjective, Noun, NegativeAdjective, Onomatopoeia, LSname, Family, noun, Family, noun
 
  let myStoryTwo = `<p> On the distant planet of ___, A somewhat long time ago in a universe far from our own. A man by the name of ___ was just an _____ man. He was a ____, and was good at his job. One day ___ returns to his home to find an old man at his ____. The man was ____ he told a tale of an age long past. Of a wizard who could control and manipulate ____. The old man told of how the wizard grew ___ and that led to their downfall of turning to darkness. A ___ was heard in the distance the old man held out his hand and told ____ that wasn't a story. It was the tale of what happened to his ____. The old man explained that he was once their teacher but failed. The old man had ____ in his hand. He said this was once your ____’s. Now you must bring balance to the magic so will you take the ____? </p>`
 
