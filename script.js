@@ -53,7 +53,19 @@ document.getElementById('storyone').innerHTML = myStoryOne
   //do diff stuff
 //ALL prompts this section: planetName, LSname, Adjective, Occupation, LSname, roomName, Adjective, Noun, NegativeAdjective, Onomatopoeia, LSname, Family, noun, Family, noun
 
- let myStoryTwo = `<p> On the distant planet of ___, A somewhat long time ago in a universe far from our own. A man by the name of ___ was just an _____ man. He was a ____, and was good at his job. One day ___ returns to his home to find an old man at his ____. The man was ____ he told a tale of an age long past. Of a wizard who could control and manipulate ____. The old man told of how the wizard grew ___ and that led to their downfall of turning to darkness. A ___ was heard in the distance the old man held out his hand and told ____ that wasn't a story. It was the tale of what happened to his ____. The old man explained that he was once their teacher but failed. The old man had ____ in his hand. He said this was once your ____’s. Now you must bring balance to the magic so will you take the ____? </p>`
+let planetName = prompt('Name a Planet')
+let userName2 = prompt('Name a Name')
+let adjective2 = prompt('Name a Adjective')
+let occupation1 = prompt('Name an Occupation')
+let room = prompt('Name a Room')
+let adjective3 = prompt('Name an Adjective')
+let noun2 = prompt('Name a Noun')
+let adjective4 = prompt('Name a negative Adjective')
+let onomatopoeia = prompt('Name an Onomatopoeia')
+let family = prompt('Name a family member (aunt, cousin, etc.)')
+let noun3 = prompt('Name a noun')
+
+ let myStoryTwo = `<p> On the distant planet of ${planetName}, A somewhat long time ago in a universe far from our own. A man by the name of ${userName2} was just an ${adjective2} man. He was a ${occupation1}, and was good at his job. One day ${userName2} returns to his home to find an old man at his ${room}. The man was ${adjective3} he told a tale of an age long past. Of a wizard who could control and manipulate ${noun2}. The old man told of how the wizard grew ${adjective4} and that led to their downfall of turning to darkness. A ${onomatopoeia} was heard in the distance the old man held out his hand and told ${userName2} that wasn't a story. It was the tale of what happened to his ${family}. The old man explained that he was once their teacher but failed. The old man had ${noun3} in his hand. He said this was once your ${family}’s. Now you must bring balance to the magic so will you take the ${noun3}? </p>`
 
  console.log(myStoryTwo)
 
@@ -64,7 +76,19 @@ else if (randomNumber == 3) {
   // do more diff stuff
 //ALL prompts this section: problem, productName, adjective, problem, productName, adverb, noun, productName, adjective, problem2, productName, phoneNumber, number, number2, number3
 
-let myStoryThree = `Do you or someone you love ____. Well, do we have the solution for you. Introducing ____ the ___ new product designed to solve ____. Ever wonder how it works? Well here's your answer. The ___ works to remove your problem ____. If you worry this product will make ___ well not to worry the ___ is absolutely free allowing for a ___ environment for your pets and family. But wait there's more if you are also tired of ____ the ____ also takes care of that with no additional fee. To order yours today call _______ if you order in the next ____ hours you will receive a free instruction guide. That's quite the deal only after __ payments of _____ dollars. Order Now!`
+let problem = prompt('Name a problem')
+let productName = prompt('Name a Product')
+let adjective5 = prompt('Name an Adjective')
+let adverb = prompt('Name an adverb')
+let noun4 = prompt('Name a Noun')
+let adjective6 = prompt('Name an Adjective')
+let problem2 = prompt('Name another Problem')
+let phoneNumber = prompt('Make a Phone Number')
+let number1 = prompt('Name a Number')
+let number2 = prompt('Name a Number')
+let number3 = prompt('Name a Number')
+
+let myStoryThree = `Do you or someone you love ${problem}. Well, do we have the solution for you. Introducing ${productName} the ${adjective5} new product designed to solve ${problem}. Ever wonder how it works? Well here's your answer. The ${productName} works to remove your problem ${adverb}. If you worry this product will make ${noun4} well not to worry the ${productName} is absolutely free allowing for a ${adjective6} environment for your pets and family. But wait there's more if you are also tired of ${problem2} the ${productName} also takes care of that with no additional fee. To order yours today call ${phoneNumber} if you order in the next ${number1} hours you will receive a free instruction guide. That's quite the deal only after ${number2} payments of ${number3} dollars. Order Now!`
 
 console.log(myStoryThree)
 
