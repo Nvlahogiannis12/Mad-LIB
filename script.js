@@ -99,7 +99,23 @@ else {
   // if nothing above is true, do this 
 //ALL prompts this section: adjective, adjective, adjective, whatdidyouaskfor, clothes, verb, noun1, number, noise, adjective, noun, noun, noun1, who, adjective, date
 
-let myStoryFour = `Your car breaks down on a ____ road. _____ your car stops directly in front of an old ____ mansion. You knock on the door to ask for _____. A man in a _____ opens the door and ____ at you before telling you to enter. You stay in the main lobby with a large ____ hangs from the ceiling cobwebs and dust everywhere. it would appear no one has been there in ____ years. Suddenly you hear ____ the windows ____ open and you hear voices and whispers. A ____ and a ____ fly past you with no one nearby. Suddenly the ____ crashes to the floor and a ____ enters ____ into the room. It was ____, your birthday.`
+let adjective7 = prompt('Name an Adjective')
+let adverb1 = prompt('Name an Adverb')
+let adjective8 = prompt('Name an Adjective')
+let noun5 = prompt('Name a Noun')
+let clothes = prompt('Name an outfit (Bathing suit, Suit, etc.)')
+let verb2 = prompt('Name a Verb')
+let noun6 = prompt('Name a Noun')
+let number4 = prompt('Name a Number')
+let onomatopoeia1 = prompt('Name an Onomatopoeia')
+let verb3 = prompt('Name a Verb')
+let noun7 = prompt('Name a Noun')
+let noun8 = prompt('Name a Noun')
+let monster3 = prompt('Name a Monster')
+let adverb2 = prompt('Name an adverb')
+let date = prompt('Whats todays date')
+
+let myStoryFour = `Your car breaks down on a ${adjective7} road. ${adverb1} your car stops directly in front of an old ${adjective8} mansion. You knock on the door to ask for ${noun5}. A man in a ${clothes} opens the door and ${verb2} at you before telling you to enter. You stay in the main lobby with a large ${noun6} hangs from the ceiling cobwebs and dust everywhere. it would appear no one has been there in ${number4} years. Suddenly you hear ${onomatopoeia1} the windows ${verb3} open and you hear voices and whispers. A ${noun7} and a ${noun8} fly past you with no one nearby. Suddenly the ${noun5} crashes to the floor and a ${monster3} enters ${adverb2} into the room. It was ${date}, your birthday.`
 
 console.log(myStoryFour)
 
